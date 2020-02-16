@@ -1,0 +1,23 @@
+{
+    "name": "PostgreSQL11",
+    "release": "11.2-RELEASE",
+    "artifact": "https://github.com/K0HAX/iocage-plugin-postgresql11.git",
+    "pkgs": [
+        "databases/postgresql11-server",
+        "databases/postgresql11-contrib",
+        "databases/postgresql11-client"
+    ],
+    "properties": {
+        "allow_sysvipc": "1"
+    },
+    "packagesite": "http://pkg.cdn.trueos.org/iocage/11.2-RELEASE/",
+    "fingerprints": {
+        "iocage-plugins": [
+            {
+                "function": "sha256",
+                "fingerprint": "226efd3a126fb86e71d60a37353d17f57af816d1c7ecad0623c21f0bf73eb0c7"
+            }
+        ]
+    },
+    "official": false
+}
