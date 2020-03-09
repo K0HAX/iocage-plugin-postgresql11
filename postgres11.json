@@ -1,6 +1,6 @@
 {
     "name": "PostgreSQL11",
-    "release": "11.2-RELEASE",
+    "release": "11.3-RELEASE",
     "artifact": "https://github.com/K0HAX/iocage-plugin-postgresql11.git",
     "pkgs": [
         "databases/postgresql11-server",
@@ -10,7 +10,7 @@
     "properties": {
         "allow_sysvipc": "1"
     },
-    "packagesite": "http://pkg.cdn.trueos.org/iocage/11.2-RELEASE/",
+    "packagesite": "http://pkg.cdn.trueos.org/iocage/11.3-RELEASE/",
     "fingerprints": {
         "iocage-plugins": [
             {
